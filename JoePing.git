@@ -54,7 +54,7 @@ exit
 
 :obterPing
 set var_name=%~1
-set %var_name%=Erro! Não foi possível completar o Ping.
+set %var_name%=Erro! NÃ£o foi possÃ­vel completar o Ping.
 set comando_ping=Ping %server%  -n 5
 
 for /f "tokens=* delims=*" %%a in ('%comando_ping%') do (set "a=%%a")
